@@ -1,0 +1,12 @@
+{
+    "name": "adition/xml-processor",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Adition\\": "src/"
+        }
+    },
+    "require": {}
+}

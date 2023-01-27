@@ -7,3 +7,4 @@ services:
     volumes:
       - "./src/:/var/www/html/src"
       - "./tests/:/var/www/html/tests"
+      - "./vendor/:/var/www/html/vendor"

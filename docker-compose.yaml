@@ -2,9 +2,11 @@ version: "3.3"
 services:
   web:
     build: .
+    image: bmx-code-challenge:1.0.5
     ports:
       - "8081:80"
     volumes:
+      - "./vendor/:/var/www/html/vendor"
       - "./src/:/var/www/html/src"
       - "./tests/:/var/www/html/tests"
-      - "./vendor/:/var/www/html/vendor"
+      - "./web/:/var/www/html/web"
